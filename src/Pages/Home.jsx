@@ -117,7 +117,7 @@ function Home() {
         <div className="about-container">
           <div className="about-image">
             <div className="image-wrapper">
-              <img src="/src/assets/Hemanth.jpeg" alt="Hemanth" />
+              <img src="https://res.cloudinary.com/dgyykbmt6/image/upload/v1772132695/Hemanth_vyqn3n.jpg" alt="Hemanth" />
               <div className="image-overlay"></div>
             </div>
             <div className="stats-grid">
