@@ -521,22 +521,22 @@ function Home() {
             <div className="contact-info-grid">
               <div className="info-card">
                 <h3>📧 Email</h3>
-                <p className="info-value">hemanth@example.com</p>
-                <a href="mailto:hemanth@example.com" className="info-link">Send Email →</a>
+                <p className="info-value">kancharlahemanth89@gmail.com</p>
+                <a href="mailto:kancharlahemanth89@gmail.com" className="info-link">Send Email →</a>
               </div>
               
               <div className="info-card">
                 <h3>📞 Phone</h3>
-                <p className="info-value">+91 9989557887</p>
-                <a href="tel:+919989557887" className="info-cta">Call Now</a>
+                <p className="info-value">+91 8179860935</p>
+                <a href="tel:+918179860935" className="info-cta">Call Now</a>
               </div>
             </div>
 
             <div className="contact-info-grid">
               <div className="info-card whatsapp">
                 <h3>💬 WhatsApp</h3>
-                <p className="info-value">+91 9989557887</p>
-                <a href="https://wa.me/919989557887" target="_blank" rel="noopener noreferrer" className="info-cta-whatsapp">Start Chat</a>
+                <p className="info-value">+91 8179860935</p>
+                <a href="https://wa.me/918179860935" target="_blank" rel="noopener noreferrer" className="info-cta-whatsapp">Start Chat</a>
               </div>
               
               <div className="info-card">
