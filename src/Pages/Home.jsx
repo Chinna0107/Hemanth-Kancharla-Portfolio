@@ -22,7 +22,7 @@ function Home() {
       image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800',
       tech: ['React', 'Node.js', 'MongoDB'],
       details: 'Full-featured e-commerce solution with admin dashboard, inventory management, order tracking, and payment gateway integration.',
-      link: '#'
+      link: 'https://chinnamart.in'
     },
     {
       title: 'Blood Donation System',
@@ -30,7 +30,7 @@ function Home() {
       image: 'https://images.unsplash.com/photo-1615461066841-6116e61058f4?w=800',
       tech: ['React', 'Express', 'MySQL'],
       details: 'Healthcare platform with real-time notifications, donor-recipient matching algorithm, and emergency request handling.',
-      link: '#'
+      link: 'https://hk-blood-donation.vercel.app/'
     },
     {
       title: 'Fertilizer Management',
@@ -38,7 +38,7 @@ function Home() {
       image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800',
       tech: ['MERN Stack', 'REST API'],
       details: 'Complete agricultural supply chain solution with farmer portal, distributor management, and analytics dashboard.',
-      link: '#'
+      link: 'https://dad-pacs.vercel.app/'
     },
     {
       title: 'Tobacco Export Company',
@@ -54,7 +54,7 @@ function Home() {
       image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800',
       tech: ['React', 'CSS3'],
       details: 'Professional corporate website with project portfolio, service pages, and team profiles with modern animations.',
-      link: '#'
+      link: 'https://continentaldesignstudio.in/'
     },
     {
       title: 'Promoads Platform',
@@ -62,8 +62,25 @@ function Home() {
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800',
       tech: ['MERN Stack', 'Analytics'],
       details: 'Marketing platform with campaign builder, analytics dashboard, performance tracking, and ROI calculation tools.',
-      link: '#'
+      link: 'https://promoads.co.in'
+    },
+    {
+      title: 'Aluris Global Trade',
+      description: 'Premium Global Supplier which includes a wide range of high-quality Rice, Millets, and Spices.',
+      image: 'https://png.pngtree.com/thumb_back/fh260/background/20240719/pngtree-white-rice-and-paddy-rice-seed-on-wooden-table-organic-jasmine-image_15895691.jpg',
+      tech: ['MERN Stack', 'Analytics'],
+      details: 'Premium global supplier for high-quality rice, millets, and spices , which has the admin panel for edit and delete of products and their prices and adding of products.',
+      link: 'https://alurisglobaltrade.com'
+    },
+    {
+      title: 'TheAlphaZone',
+      description: 'When fashion meet style and quality meet affordability, TheAlphaZone is the ultimate destination for fashion enthusiasts. With a wide range of trendy and high-quality clothing and foot wear, we bring you the latest styles at unbeatable prices.',
+      image: 'https://www.techfunnel.com/wp-content/uploads/2019/07/Top-Benefits-of-ECommerce-for-Retailers-_-ECommerce-in-retail-1.png',
+      tech: ['MERN Stack', 'Analytics'],
+      details: 'TheAlphaZone is your go-to online store for trendy and high-quality clothing and footwear. We offer the latest styles at unbeatable prices, ensuring you stay fashionable without breaking the bank. Our user-friendly platform makes shopping easy and enjoyable, with a wide range of options to suit every style and occasion. Experience the perfect blend of fashion, quality, and affordability at TheAlphaZone.',
+      link: 'https://thealphazone.in'
     }
+
   ];
 
   const nextProject = () => {
@@ -87,7 +104,7 @@ function Home() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const message = `*New Project Inquiry*%0A%0A*Name:* ${formData.name}%0A*Phone:* ${formData.phone}%0A*Email:* ${formData.email}%0A*Service:* ${formData.service}%0A*Message:* ${formData.message}`;
-    window.open(`https://wa.me/919989557887?text=${message}`, '_blank');
+    window.open(`https://wa.me/918179860935?text=${message}`, '_blank');
   };
 
   const scrollToSection = (id) => {
@@ -100,7 +117,8 @@ function Home() {
       <section className="hero" id="home">
         <div className="hero-content">
           <h1>Hi, I'm Hemanth Kancharla</h1>
-          <p>Full Stack Developer</p>
+          <p>Founder & CEO of <b>Zewo Tech</b>  solutions <br />Full Stack Developer</p>
+          {/* <p>Full Stack Developer</p> */}
           <div className="hero-buttons">
             <button className="btn-primary" onClick={() => scrollToSection('projects')}>Explore Projects</button>
             <button className="btn-secondary" onClick={() => scrollToSection('contact')}>Hire Me</button>
@@ -479,6 +497,13 @@ function Home() {
         <h2>Certifications & Training</h2>
         <p className="section-subtitle">Professional certifications and internship experiences</p>
         <div className="certificates-grid">
+           <div className="certificate-card">
+            <div className="cert-icon">🎓</div>
+            <h3>Full Stack Web Developer Intern</h3>
+            <p className="cert-org">StaffArc</p>
+            <p className="cert-desc">Gained hands-on experience in full-stack web development, contributing to the design and implementation of responsive web applications.</p>
+            <div className="cert-badge">Internship</div>
+          </div>
           <div className="certificate-card">
             <div className="cert-icon">🎓</div>
             <h3>MERN Stack Internship</h3>
@@ -624,15 +649,16 @@ function Home() {
           {/* Get In Touch */}
           <div>
             <h3 style={{ color: 'gold', marginBottom: '1.2rem', fontSize: '1.2rem', fontWeight: '700', letterSpacing: '1px' }}>Get In Touch</h3>
-            <a href="tel:+919989557887" style={{ color: '#b0b0b0', textDecoration: 'none', fontSize: '1rem', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.8rem' }} onMouseOver={(e) => { e.currentTarget.style.color = 'gold'; }} onMouseOut={(e) => { e.currentTarget.style.color = '#b0b0b0'; }}><FaPhone /> +91 9989557887</a>
-            <a href="mailto:hemanth@example.com" style={{ color: '#b0b0b0', textDecoration: 'none', fontSize: '0.9rem', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '0.5rem' }} onMouseOver={(e) => { e.currentTarget.style.color = 'gold'; }} onMouseOut={(e) => { e.currentTarget.style.color = '#b0b0b0'; }}><FaEnvelope /> hemanth@example.com</a>
+            <a href="tel:+918179860935" style={{ color: '#b0b0b0', textDecoration: 'none', fontSize: '1rem', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.8rem' }} onMouseOver={(e) => { e.currentTarget.style.color = 'gold'; }} onMouseOut={(e) => { e.currentTarget.style.color = '#b0b0b0'; }}><FaPhone /> +91 8179860935</a>
+            <a href="mailto:kancharlahemanth89@gmail.com" style={{ color: '#b0b0b0', textDecoration: 'none', fontSize: '0.9rem', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '0.5rem' }} onMouseOver={(e) => { e.currentTarget.style.color = 'gold'; }} onMouseOut={(e) => { e.currentTarget.style.color = '#b0b0b0'; }}><FaEnvelope /> kancharlahemanth89@gmail.com</a>
           </div>
 
           {/* Location */}
           <div>
             <h3 style={{ color: 'gold', marginBottom: '1.2rem', fontSize: '1.2rem', fontWeight: '700', letterSpacing: '1px' }}>Location</h3>
             <p style={{ color: '#b0b0b0', lineHeight: '1.8', fontSize: '0.95rem' }}>
-              Kandukur, Andhra Pradesh<br />
+              Nekunam puram, Voletivari palem (M), SPSR Nellore(D),  Andhra Pradesh<br />
+              523113<br />
               India
             </p>
           </div>
