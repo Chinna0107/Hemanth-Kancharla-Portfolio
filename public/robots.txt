@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hemanthkancharla.vercel.app/sitemap.xml
