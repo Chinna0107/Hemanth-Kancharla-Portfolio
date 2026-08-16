@@ -140,7 +140,7 @@ function Home() {
             </div>
             <div className="stats-grid">
               <div className="stat-item">
-                <h3>6+</h3>
+                <h3>30+</h3>
                 <p>Projects</p>
               </div>
               <div className="stat-item">
